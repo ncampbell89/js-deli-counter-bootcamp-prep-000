@@ -10,12 +10,5 @@ function nowServing(katzDeliLine, name) {
     return "There is nobody waiting to be served!"
   }
   return katzDeliLine
-
-  var newArr = []
-  var i = 0
-  while (katzDeliLine.length > i) {
-    newArr.push(`Currently serving ${name}.`)
-    i++
-  }
-  return newArr
+  return `Currently serving ${name}.`
 }
