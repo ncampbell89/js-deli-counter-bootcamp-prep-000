@@ -13,8 +13,8 @@ function nowServing(katzDeliLine) {
 }
 
 function currentLine(line) {
-  if (line === ["Bill", "Jane", "Ann"]) {
-    return "The line is currently: 1. Bill, 2. Jane, 3. Ann"
+  if (line.push(`${line}`)) {
+    return `The line is currently: ${line}`
   } else {
     return "The line is currently empty."
   }
