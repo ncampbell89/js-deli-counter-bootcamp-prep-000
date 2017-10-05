@@ -12,8 +12,10 @@ function nowServing(katzDeliLine) {
   return katzDeliLine
 }
 
-function currentLine(katzDeliLine) {
+function currentLine(katzDeliLine, n, element) {
   if (katzDeliLine === []) {
     return "The line is currently empty."
+  } else {
+    return `The line is currently: ${n}. ${element}`
   }
 }
