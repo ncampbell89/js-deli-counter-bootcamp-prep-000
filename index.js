@@ -20,7 +20,7 @@ function currentLine(line) {
       newArray.push(`${i + 1}. ${line[i]}`)
     }
     // newArray's value is ['1. Bill', '2. Jane', '3. Ann']
-    return `The line is currently: ${newArray.join(" ")}`
+    return `The line is currently: ${newArray.join(", ")}`
   } else {
     return "The line is currently empty."
   }
